@@ -11,7 +11,7 @@ public class BinaryHeap {
         this.heap = new int[capacity]; // Create an array of the given capacity
         this.size = 0; // Initialize size to 0
     }
-
+// Comment
     // Constructor for algorithm 2: Builds a heap from an existing array
     public BinaryHeap(int[] data) {
         this.size = data.length; // Set the size to the length of the data
